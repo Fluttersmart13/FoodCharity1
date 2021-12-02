@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:contentDescription="Icon"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/hotelname"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_home_24"
+                    android:textSize="20dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    app:cardCornerRadius="45dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/card_avlibility"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/avlibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/address"
+                android:text="Zee Insulated Wires Pvt Ltd B 209, Phase 1, SIIDCUL, Mirabara Rana, Uttarakhand 262405, India (29.0471512, 79.6843136) "
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/location"
+                android:layout_marginTop="5dp"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:id="@+id/contact"
+                android:text="9874563212"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/phone"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_gravity="right"
+                android:numStars="5"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

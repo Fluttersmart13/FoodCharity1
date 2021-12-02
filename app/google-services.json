@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "924609100325",
+    "project_id": "daan-108e0",
+    "storage_bucket": "daan-108e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924609100325:android:6b087eb150bc1dc5489dcc",
+        "android_client_info": {
+          "package_name": "com.example.foodcharity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924609100325-ip45l1l4squ1pqvv7sk8jr0p2c9fm04h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodcharity",
+            "certificate_hash": "bbedbd72b4a7887b88944334bf7ec8eb84fd8d65"
+          }
+        },
+        {
+          "client_id": "924609100325-le3mgfpddhsfdd0966hf6i1qqnqlgoji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA15p_1YcI8-tRXHOBAI25r8nWEHqzNpg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924609100325-le3mgfpddhsfdd0966hf6i1qqnqlgoji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
